@@ -1,0 +1,10 @@
+.card{
+    
+    padding: 30px;
+    border: 5px solid #A77B06;
+    border-radius: 20px; 
+    box-shadow: 20px 20px 20px 20px gray;
+}
+.card img{
+    border-radius: 20px;
+}
