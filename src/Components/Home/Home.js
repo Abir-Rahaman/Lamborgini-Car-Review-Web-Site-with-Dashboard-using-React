@@ -2,10 +2,10 @@ import React, { useEffect, useState } from 'react';
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
-import Button from 'react-bootstrap/Button'
 import image from '../../Asset/lamborghini.png'
 import './Home.css'
 import HomeReview from '../Home-Review/HomeReview';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
     const [cars , setCars] = useState([])
@@ -40,7 +40,7 @@ const Home = () => {
                         
                     </div>
 
-                  <Button className='px-5 py-10 btn' variant="success">See All Reviews</Button>{' '}
+                  <Link to='/review' className=' btn px-5 ms-5 ps-5 py-10 btn' variant="success">See All Reviews</Link>{' '}
 
 
                 </div>
