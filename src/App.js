@@ -4,6 +4,7 @@ import Header from './Components/Header-Section/Header';
 import Home from './Components/Home/Home';
 import Review from './Components/Review-Section/Review';
 import Dashboard from './Components/Dashboard/Dashboard';
+import Blogs from './Components/Blogs/Blogs';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path='/' element={<Home></Home>} ></Route>
         <Route path='/Review' element={<Review></Review>} ></Route>
         <Route path='/Dashboard' element={<Dashboard></Dashboard>} ></Route>
+        <Route path='/Blogs' element={<Blogs></Blogs>} ></Route>
         
       </Routes>
     </div>

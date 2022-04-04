@@ -1,6 +1,4 @@
-import React, { useEffect, useState } from 'react';
 import { LineChart, CartesianGrid, XAxis, YAxis, Tooltip, Legend, Line, AreaChart, Area } from 'recharts';
-import DashboardDetails from '../DashboardDetails/DashboardDetails';
 
 const Dashboard = () => {
     const data= [
